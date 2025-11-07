@@ -297,7 +297,8 @@ with final_cols[0]:
         f"·   Complete Letters: {finalized_count}/{len(st.session_state.letters)}"
     )
 with final_cols[1]:
-    st.caption("Green ✅ = completed perfectly \n Orange 🟠 = gave up")
+    st.markdown("Green ✅ = completed perfectly  \nOrange 🟠 = gave up")
+
 
 # ---------- Sidebar: progress ----------
 with st.sidebar:
